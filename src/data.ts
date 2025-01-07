@@ -1,3 +1,12 @@
+import {
+  BuildingIcon,
+  CodeIcon,
+  FolderKanbanIcon,
+  GraduationCapIcon,
+  SquareChevronRightIcon,
+  StarIcon,
+} from "lucide-react";
+
 export const projects = [
   {
     title: "DigiMenu",
@@ -33,5 +42,33 @@ export const projects = [
     title: "See more on GitHub",
     description: "Check out more projects on my GitHub profile",
     links: ["https://www.github.com/amratansh12"],
+  },
+];
+
+export const about = [
+  {
+    question: "What is my alma mater?",
+    answer: "IIT Roorkee (2025 Graduate)",
+    icon: GraduationCapIcon,
+  },
+  {
+    question: "What I do?",
+    answer: "JavaScript based frameworks, REST APIs and more!",
+    icon: CodeIcon,
+  },
+  {
+    question: "What framework do I use?",
+    answer: "ReactJS, NextJS, NodeJS and Databases",
+    icon: SquareChevronRightIcon,
+  },
+  {
+    question: "Had I worked on any projects?",
+    answer: "Yes, more than five projects",
+    icon: FolderKanbanIcon,
+  },
+  {
+    question: "Had I worked with any company?",
+    answer: "FYN Mobility, WNE3 and DraftAI",
+    icon: BuildingIcon,
   },
 ];

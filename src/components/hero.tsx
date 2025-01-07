@@ -22,10 +22,10 @@ export const Hero = () => {
         />
       </div>
 
-      <div className="py-32 md:py-56 md:px-12 flex flex-col gap-y-2 items-center justify-center bg-black/85">
+      <div className="py-32 lg:py-56 lg:px-12 flex flex-col gap-y-2 items-center justify-center bg-black/85">
         <ShinyText
           text={greeting}
-          className="text-3xl md:text-4xl font-bold text-[#4DA8DA]/85"
+          className="text-3xl md:text-4xl font-bold text-[#4DA8DA]/80"
         />
         <ShinyText
           text="I am Amratansh, passionate developer"
