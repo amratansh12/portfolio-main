@@ -11,11 +11,12 @@ export const Companies = () => {
 
       <div className="flex flex-col gap-y-10 py-10">
         {companies.map(({ company, description }, index) => (
-          <StarBorder color="#4DA8DA" speed="3s" key={index}>
+          <StarBorder color="#4DA8DA" speed="2s" key={index}>
             <div className="flex flex-col gap-y-6 ">
               <ShinyText
                 className="text-2xl font-semibold text-start"
                 text={company}
+                speed={2}
               />
               <p
                 className="text-neutral-400 text-start"

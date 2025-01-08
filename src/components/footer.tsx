@@ -12,8 +12,8 @@ export const Footer = () => {
         <Waves
           lineColor="#4DA8DA"
           backgroundColor="#000000"
-          waveSpeedX={0.02}
-          waveSpeedY={0.01}
+          waveSpeedX={0.05}
+          waveSpeedY={0.04}
           waveAmpX={40}
           waveAmpY={20}
           friction={0.9}
@@ -45,6 +45,7 @@ export const Footer = () => {
           <ShinyText
             text="Made with ❤️ by Amratansh. Copyrights © 2021"
             className="text-center text-lg w-full mt-20"
+            speed={3}
           />
         </div>
       </div>
