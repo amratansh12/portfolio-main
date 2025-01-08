@@ -5,13 +5,13 @@ import DecryptedText from "./ui/decrypted-text";
 
 export const About = () => {
   return (
-    <div className="max-w-screen-lg mx-12 lg:mx-auto py-12">
-      <h1 className="text-white text-3xl md:text-4xl font-bold">
+    <div className="max-w-screen-lg mx-12 lg:mx-auto py-20">
+      <h1 className="text-white text-3xl md:text-4xl font-bold tracking-wide">
         Want to know more about me?
       </h1>
-      <div className="flex flex-col gap-y-6 mt-10">
+      <div className="flex flex-col gap-y-8 mt-10 tracking-wide">
         {about.map(({ question, answer, icon: Icon }, index) => (
-          <div className="flex items-center gap-x-2 font-semibold">
+          <div className="flex items-center gap-x-2">
             <Icon className="size-6 mr-1 text-white" />
             <span className="text-neutral-400 text-xl">{question}</span>
             <DecryptedText

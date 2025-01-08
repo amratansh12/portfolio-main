@@ -8,8 +8,8 @@ import { Link } from "lucide-react";
 export const Projects = () => {
   return (
     <div className="max-w-screen-lg mx-12 lg:mx-auto py-20">
-      <h1 className="text-white text-3xl md:text-4xl font-bold">
-        Projects I've worked on...
+      <h1 className="text-white text-3xl md:text-4xl font-bold tracking-wide">
+        And, Projects I've worked on...
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-8">

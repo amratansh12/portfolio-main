@@ -72,3 +72,21 @@ export const about = [
     icon: BuildingIcon,
   },
 ];
+
+export const companies = [
+  {
+    company: "FYN Mobility",
+    description:
+      "Worked as a Frontend Developer Intern. I was responsible for redesigning responsive webpages in ReactJS to improve user retention by 25%, developed company's website and admin dashboard in NextJS to save 15+ management hours, and optimized MongoDB and API queries.",
+  },
+  {
+    company: "WNE3",
+    description:
+      "Worked as a Fullstack Developer Intern. I worked on developing secure routes and controllers with ExpressJS, integrated Qikink RestAPI to automate 200+ orders, and engineered responsive ReactJS pages, increasing user conversion rates",
+  },
+  {
+    company: "DraftAI",
+    description:
+      "Worked as a React Developer Intern. I was responsible for integrating the OpenAI API to generate human-like text, developed a responsive ReactJS sidebar to query and analyze the generated text, and redesigned the sidebar to improve user experience",
+  },
+];
