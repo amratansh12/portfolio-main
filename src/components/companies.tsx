@@ -12,7 +12,7 @@ export const Companies = () => {
       <div className="flex flex-col gap-y-10 py-10">
         {companies.map(({ company, description }, index) => (
           <StarBorder color="#4DA8DA" speed="3s" key={index}>
-            <div className="flex flex-col gap-y-2">
+            <div className="flex flex-col gap-y-6 ">
               <ShinyText
                 className="text-2xl font-semibold text-start"
                 text={company}
