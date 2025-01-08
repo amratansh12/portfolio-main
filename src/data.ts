@@ -4,8 +4,9 @@ import {
   FolderKanbanIcon,
   GraduationCapIcon,
   SquareChevronRightIcon,
-  StarIcon,
 } from "lucide-react";
+import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 export const projects = [
   {
@@ -88,5 +89,24 @@ export const companies = [
     company: "DraftAI",
     description:
       "Worked as a React Developer Intern. I was responsible for integrating the OpenAI API to generate human-like text, developed a responsive ReactJS sidebar to query and analyze the generated text, and redesigned the sidebar to improve user experience",
+  },
+];
+
+export const footerContacts = [
+  {
+    link: "https://www.linkedin.com/in/amratanshshrivastava",
+    icon: FaLinkedinIn,
+  },
+  {
+    link: "https://github.com/amratansh12",
+    icon: FaGithub,
+  },
+  {
+    link: "https://www.instagram.com/amratanx",
+    icon: FaInstagram,
+  },
+  {
+    link: "https://leetcode.com/u/ackerman1205/",
+    icon: SiLeetcode,
   },
 ];
