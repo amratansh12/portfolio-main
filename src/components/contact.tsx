@@ -12,8 +12,11 @@ export const Contact = () => {
   };
 
   return (
-    <div className="py-20 max-w-screen-lg mx-12 lg:mx-auto flex items-center justify-center">
-      <Magnet innerClassName="p-20">
+    <div
+      className="py-20 max-w-screen-lg mx-12 lg:mx-auto flex items-center justify-center"
+      id="contact"
+    >
+      <Magnet innerClassName="p-8 md:p-20">
         <div
           className="bg-gradient-to-b from-gray-900 to-gray-800 border-gray-900 text-white py-8 px-12 rounded-[20px] flex flex-col gap-y-2 items-center justify-center"
           onClick={onClick}

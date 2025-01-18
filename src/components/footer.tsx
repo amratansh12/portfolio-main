@@ -24,7 +24,7 @@ export const Footer = () => {
         />
       </div>
 
-      <div className="w-full bg-black/80 py-20 z-10">
+      <div className="w-full bg-black/70 py-20 z-10">
         <div className="w-1/2 mx-auto">
           <div className="w-1/3 mx-auto flex items-center justify-center gap-x-4">
             {footerContacts.map(({ link, icon: Icon }, index) => (
@@ -38,12 +38,12 @@ export const Footer = () => {
             ))}
           </div>
 
-          <div className="w-1/2 mx-auto mt-10 text-center text-white">
+          <div className="w-full md:w-1/2 mx-auto mt-10 text-center text-white">
             <p>{quote}</p>
           </div>
 
           <ShinyText
-            text="Made with ❤️ by Amratansh. Copyrights © 2021"
+            text="Made with ❤️ by Amratansh. Copyrights © 2024"
             className="text-center text-lg w-full mt-20"
             speed={3}
           />

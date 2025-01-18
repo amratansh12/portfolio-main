@@ -6,9 +6,23 @@ import ShinyText from "@/components/ui/shiny-text";
 import Squares from "@/components/ui/squares";
 import { Button } from "./ui/button";
 import { BookTextIcon, PhoneCallIcon } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 export const Hero = () => {
   const greeting = `${greetingTime(new Date())}!`;
+  const router = useRouter();
+
+  const handleResumeClick = () => {
+    router.push(
+      "https://drive.google.com/file/d/1ShEZFjk-7HeNRdNhZMpTpHDupCMRbOgc/view?usp=drive_link"
+    );
+  };
+
+  const handleContactClick = () => {
+    router.push("/#contact", {
+      scroll: true,
+    });
+  };
 
   return (
     <div className="relative">
@@ -37,9 +51,16 @@ export const Hero = () => {
         />
 
         <div className="mt-6 flex items-center justify-center gap-x-10">
-          {/* TODO: Fix the onClick on these buttons */}
-          <Button text="View Resume" icon={BookTextIcon} onClick={() => {}} />
-          <Button text="Contact Me" icon={PhoneCallIcon} onClick={() => {}} />
+          <Button
+            text="View Resume"
+            icon={BookTextIcon}
+            onClick={handleResumeClick}
+          />
+          <Button
+            text="Contact Me"
+            icon={PhoneCallIcon}
+            onClick={handleContactClick}
+          />
         </div>
       </div>
     </div>

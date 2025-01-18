@@ -59,7 +59,7 @@ export const about = [
   },
   {
     question: "What framework do I use?",
-    answer: "ReactJS, NextJS, NodeJS and Databases",
+    answer: "ReactJS, NextJS, NodeJS, MongoDB, ExpressJS and more!",
     icon: SquareChevronRightIcon,
   },
   {
