@@ -1,4 +1,4 @@
-import { LegacyRef, useEffect, useRef, RefObject, ReactNode } from "react";
+import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import "./grid-motion.css";
 

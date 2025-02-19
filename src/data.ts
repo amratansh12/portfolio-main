@@ -78,7 +78,7 @@ export const companies = [
   {
     company: "FYN Mobility",
     description:
-      "Worked as a Frontend Developer Intern. I was responsible for redesigning responsive webpages in ReactJS to improve user retention by 25%, developed company's website and admin dashboard in NextJS to save 15+ management hours",
+      "Worked as a Frontend Developer Intern. I was responsible for redesigning responsive webpages in ReactJS to improve user retention by 25%, developed companyws website and admin dashboard in NextJS to save 15+ management hours",
   },
   {
     company: "WNE3",

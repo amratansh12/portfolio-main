@@ -9,7 +9,7 @@ export const Projects = () => {
   return (
     <div className="max-w-screen-lg mx-12 lg:mx-auto py-20">
       <h1 className="text-white text-3xl md:text-4xl font-bold tracking-wide">
-        And, Projects I've worked on...
+        And, Projects I&apos;ve worked on...
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-8">
@@ -25,10 +25,11 @@ export const Projects = () => {
                 {project.description}
               </p>
               <div className="flex flex-col space-y-4">
-                {project.links.map((tag) => (
+                {project.links.map((tag, index) => (
                   <span
                     className="text-neutral-400 bg-neutral-800 px-2 py-1 rounded-lg w-full text-sm flex items-center truncate text-ellipsis cursor-pointer"
                     onClick={() => window.open(tag, "_blank")}
+                    key={index}
                   >
                     <Link className="size-3 mr-2" />
                     {tag}

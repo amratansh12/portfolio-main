@@ -4,23 +4,6 @@ import Image from "next/image";
 import GridMotion from "./ui/grid-motion/grid-motion";
 
 export const Tech = () => {
-  function shuffle(array: Array<React.JSX.Element | string>) {
-    let currentIndex = array.length;
-
-    // While there remain elements to shuffle...
-    while (currentIndex != 0) {
-      // Pick a remaining element...
-      let randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex--;
-
-      // And swap it with the current element.
-      [array[currentIndex], array[randomIndex]] = [
-        array[randomIndex],
-        array[currentIndex],
-      ];
-    }
-  }
-
   const items = [
     <div key="javascript">
       <Image src="/javascript.png" alt="Javascript" width={100} height={100} />
@@ -98,8 +81,6 @@ export const Tech = () => {
     "TailwindCSS",
     "Github",
   ];
-
-  // shuffle(items);
 
   return (
     <div className="max-w-screen-lg mx-12 lg:mx-auto py-20">

@@ -11,7 +11,10 @@ export const About = () => {
       </h1>
       <div className="flex flex-col gap-y-8 mt-10 tracking-wide">
         {about.map(({ question, answer, icon: Icon }, index) => (
-          <div className="flex flex-col md:flex-row items-center gap-x-2">
+          <div
+            className="flex flex-col md:flex-row items-center gap-x-2"
+            key={index}
+          >
             <Icon className="size-6 mr-1 text-white" />
             <span className="text-neutral-400 text-xl">{question}</span>
             <DecryptedText

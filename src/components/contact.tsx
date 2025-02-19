@@ -2,7 +2,6 @@ import { MailIcon } from "lucide-react";
 import GradientText from "./ui/gradient-text";
 import Magnet from "./ui/magnet";
 import ShinyText from "./ui/shiny-text";
-import Noise from "./ui/noise";
 
 export const Contact = () => {
   const colors = ["#4DA8DA", "#FFFFFF", "#6CCFF6", "#AAB3BB"];

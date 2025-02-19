@@ -3,7 +3,15 @@ declare module "greeting-time" {
 }
 
 declare module "inspirational-quotes" {
-  export default {
-    getQuote(): { text: string; author: string };
+  interface Quote {
+    text: string;
+    author: string;
   }
+
+  interface InspirationalQuotes {
+    getQuote(): Quote;
+  }
+
+  const inspirationalQuotes: InspirationalQuotes;
+  export default inspirationalQuotes;
 }

@@ -1,4 +1,4 @@
-import { useRef, useEffect, RefObject } from "react";
+import { useRef, useEffect } from "react";
 
 interface NoiseProps {
   patternSize?: number;
@@ -23,6 +23,7 @@ const Noise: React.FC<NoiseProps> = ({
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
     let frame = 0;
+    if (!window) return;
 
     const patternCanvas = document.createElement("canvas");
     patternCanvas.width = patternSize;
